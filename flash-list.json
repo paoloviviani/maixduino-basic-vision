@@ -3,12 +3,12 @@
     "files": [
       {
         "address": 0,
-        "bin": "maixpy_v0.6.2_41_g02d12688e.bin",
+        "bin": "maixpy_v0.6.2_41_g02d12688e_minimum_with_ide_support.bin",
         "sha256Prefix": true
       },
       {
         "address": 0x300000,
-        "bin": "mobilenet.kmodel",
+        "bin": "facedetect.kmodel",
         "sha256Prefix": false
       }
     ]
