@@ -130,3 +130,5 @@ dmypy.json
 
 mobilenet_package*
 .vscode
+mnist_maixpy/package/*
+*.DS_Store*
