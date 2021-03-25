@@ -8,7 +8,7 @@ sensor.set_pixformat(sensor.RGB565)
 sensor.set_framesize(sensor.QVGA)
 sensor.set_windowing((224, 224))    #set to 224x224 input
 sensor.set_hmirror(0)               #flip camera
-task = kpu.load(0x300000)           #load model from flash address 0x200000
+task = kpu.load(0x300000)           #load model from flash address 0x300000
 sensor.run(1)
 while True:
     img = sensor.snapshot()
